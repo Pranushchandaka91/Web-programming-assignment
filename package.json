@@ -1,0 +1,17 @@
+{
+  "name": "restaurant-app",
+  "version": "1.0.0",
+  "description": "Restaurant Menu + Order System",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2",
+    "mongodb": "^7.2.0",
+    "mongoose": "^7.6.3"
+  }
+}
